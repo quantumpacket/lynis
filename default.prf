@@ -276,6 +276,7 @@ config-data=sysctl;hw.kbd.keymap_restrict_change;4;1;Disable changing the keymap
 #security.bsd.conservative_signals; 1
 #security.bsd.unprivileged_read_msgbuf; 1
 #security.bsd.unprivileged_get_quota; 0
+security.bsd.stack_guard_page = 1
 config-data=sysctl;security.bsd.hardlink_check_gid;1;1;Unprivileged processes are not allowed to create hard links to files which are owned by other groups;-;category:security;
 config-data=sysctl;security.bsd.hardlink_check_uid;1;1;Unprivileged processes are not allowed to create hard links to files which are owned by other users;-;category:security;
 
